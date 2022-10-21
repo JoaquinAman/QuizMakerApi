@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TX/fgj5UeRLmHb5tf3SqX4DL692FWSQTSmmtCzq5nPQ=",
+  "Source": "QuizMakerApi",
+  "BasePath": "_content/QuizMakerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

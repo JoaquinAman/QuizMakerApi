@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMakerApi", "QuizMakerApi\QuizMakerApi.csproj", "{01069D28-3352-4656-8F18-49687EB5437E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao.Mongo.Interface", "Dao.Mongo.Interface\Dao.Mongo.Interface.csproj", "{CFD0C0F1-D8F5-4A9D-A56D-B717E86DED75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao.Mongo.Service", "Dao.Mongo.Service\Dao.Mongo.Service.csproj", "{5CC74EFB-FAF2-44FD-BE34-3CA0025746D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao.Mongo.Entity", "Dao.Mongo.Entity\Dao.Mongo.Entity.csproj", "{207B6575-923C-4CDB-9386-1A5C779BBA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interface", "Domain.Interface\Domain.Interface.csproj", "{CD8B9B4E-BF24-4136-933C-078AEE3BC06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{13783D19-0E41-47CF-A92B-4FED584E20B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Service", "Domain.Service\Domain.Service.csproj", "{269DBAE7-D432-44B3-BBCE-2EF95FCB308B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01069D28-3352-4656-8F18-49687EB5437E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01069D28-3352-4656-8F18-49687EB5437E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01069D28-3352-4656-8F18-49687EB5437E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01069D28-3352-4656-8F18-49687EB5437E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD0C0F1-D8F5-4A9D-A56D-B717E86DED75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD0C0F1-D8F5-4A9D-A56D-B717E86DED75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD0C0F1-D8F5-4A9D-A56D-B717E86DED75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD0C0F1-D8F5-4A9D-A56D-B717E86DED75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC74EFB-FAF2-44FD-BE34-3CA0025746D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC74EFB-FAF2-44FD-BE34-3CA0025746D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC74EFB-FAF2-44FD-BE34-3CA0025746D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC74EFB-FAF2-44FD-BE34-3CA0025746D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207B6575-923C-4CDB-9386-1A5C779BBA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207B6575-923C-4CDB-9386-1A5C779BBA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207B6575-923C-4CDB-9386-1A5C779BBA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207B6575-923C-4CDB-9386-1A5C779BBA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8B9B4E-BF24-4136-933C-078AEE3BC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8B9B4E-BF24-4136-933C-078AEE3BC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8B9B4E-BF24-4136-933C-078AEE3BC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8B9B4E-BF24-4136-933C-078AEE3BC06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13783D19-0E41-47CF-A92B-4FED584E20B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13783D19-0E41-47CF-A92B-4FED584E20B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13783D19-0E41-47CF-A92B-4FED584E20B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13783D19-0E41-47CF-A92B-4FED584E20B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269DBAE7-D432-44B3-BBCE-2EF95FCB308B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269DBAE7-D432-44B3-BBCE-2EF95FCB308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269DBAE7-D432-44B3-BBCE-2EF95FCB308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269DBAE7-D432-44B3-BBCE-2EF95FCB308B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97567893-22E4-458B-9D25-95C8EE17EB56}
+	EndGlobalSection
+EndGlobal

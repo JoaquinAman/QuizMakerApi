@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Service\\Domain.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
+        "projectName": "Dao.Mongo.Interface",
+        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
+        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj",
+        "projectName": "Domain.Interface",
+        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Service\\Domain.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Service\\Domain.Service.csproj",
+        "projectName": "Domain.Service",
+        "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Service\\Domain.Service.csproj",
+        "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj": {
+                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj"
+              },
+              "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
