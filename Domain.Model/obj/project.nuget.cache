@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "acSIeml8kFPlpH5JQuzoPzzfY5iN3DXcmo5NaccfBoWwWiJk/AMhWz40i6jVL1eYb+fYg9hyRHQXvIOEovrQIw==",
+  "dgSpecHash": "f6FBX9I+q8QjINSjMKkrkU46O2l+azp1PmLKOtyn2Dx11HAnKmjEEZPlaxSGiwF3q5fsIZ86SD36vkoQlFp1aA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Weeser\\Downloads\\Trabajo\\BootCamp\\Proyect\\QuizMakerApi\\Domain.Model\\Domain.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Weeser\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

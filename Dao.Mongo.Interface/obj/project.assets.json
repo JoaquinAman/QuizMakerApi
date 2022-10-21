@@ -4727,19 +4727,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joaquin Aman\\.nuget\\packages\\": {}
+    "C:\\Users\\Weeser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\Weeser\\Downloads\\Trabajo\\BootCamp\\Proyect\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
       "projectName": "Dao.Mongo.Interface",
-      "projectPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
-      "packagesPath": "C:\\Users\\Joaquin Aman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joaquin Aman\\source\\repos\\QuizMakerApi\\Dao.Mongo.Interface\\obj\\",
+      "projectPath": "C:\\Users\\Weeser\\Downloads\\Trabajo\\BootCamp\\Proyect\\QuizMakerApi\\Dao.Mongo.Interface\\Dao.Mongo.Interface.csproj",
+      "packagesPath": "C:\\Users\\Weeser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Weeser\\Downloads\\Trabajo\\BootCamp\\Proyect\\QuizMakerApi\\Dao.Mongo.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Joaquin Aman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Weeser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4812,7 +4812,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

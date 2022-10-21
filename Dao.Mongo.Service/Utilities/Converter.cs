@@ -14,5 +14,14 @@ namespace Dao.Mongo.Service.Utilities
                 //UserName = "prueba"
             };
         }
+        internal static Quiz ToQuiz(this QuizDao input)
+        {
+            return new Quiz()
+            {
+                QuizId = input.Id,
+                Title = input.Title,
+                Questions = ToQuestions(input.Questions)
+            };
+        }
     }
 }
