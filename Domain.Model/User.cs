@@ -1,8 +1,10 @@
-﻿namespace Domain.Model
+﻿using JetBrains.Annotations;
+
+namespace Domain.Model
 {
     public class User
     {
-        public string UserId { get; set; } = null!;
-        public string UserName { get; set; } = null!;
+        public string UserId { [UsedImplicitly] get; set; } = null!;
+        public string UserName { [UsedImplicitly] get; set; } = null!;
     }
 }
