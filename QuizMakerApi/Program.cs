@@ -21,8 +21,12 @@ namespace QuizMakerApi
 
             builder.Services.Configure<MongoDbSettings>(configuration.GetSection("MongoDbSettings"));
 
+
             builder.Services.AddTransient<IUserDomain, UserDomainService>();
             builder.Services.AddTransient<IDatabase<User>, UserDbService>();
+
+            builder.Services.AddTransient<IQuizDomain, QuizDomainService>();
+            builder.Services.AddTransient<IDatabase<Quiz>, QuizDbService>();
 
             // Add services to the container.
 

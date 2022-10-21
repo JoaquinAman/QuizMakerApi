@@ -1331,6 +1331,9 @@
       "Domain.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
         "compile": {
           "bin/placeholder/Domain.Model.dll": {}
         },

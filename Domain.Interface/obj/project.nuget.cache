@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lkXmVh0Inhj4dXTHwRPPd80iDvtZhsyCNBAf9L9YBNPyvXricI127d3llGbm/yojGh7xx631q/gCdc0MyQGQvg==",
+  "dgSpecHash": "+d+eM25navFPMIZsMJ7LY53VfxZQ1+EHtxq5YUf5iQ2hl6tj0YLsb8mfL7Ouy/JA0ymBJMvVXUkBpPtv2C/dmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Weeser\\Downloads\\Trabajo\\BootCamp\\Proyect\\QuizMakerApi\\Domain.Interface\\Domain.Interface.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Weeser\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

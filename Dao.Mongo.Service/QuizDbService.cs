@@ -2,15 +2,12 @@
 using MongoDB.Driver;
 using Dao.Mongo.Entity;
 using Domain.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Dao.Mongo.Service.Utilities;
+using Dao.Mongo.Interface;
 
 namespace Dao.Mongo.Service
 {
-    public class QuizDbService
+    public class QuizDbService : IDatabase<Quiz>
     {
         private readonly IMongoCollection<QuizDao> _quizCollection;
         public QuizDbService(IOptions<MongoDbSettings> mongoDBsettings)
@@ -20,10 +17,10 @@ namespace Dao.Mongo.Service
             _quizCollection = database.GetCollection<QuizDao>("quizzes");
         }
 
-        public async Task<List<Quiz>> GetAsync()
+        public async Task<List<Quiz>> GetList()
         {
-            List<QuizDao> quizDtOs = await _quizCollection.Find(_ => true).ToListAsync();
-            return quizDtOs.ConvertAll(x => x.ToQuiz());
+            List<QuizDao> quizDaos = await _quizCollection.Find(_ => true).ToListAsync();
+            return quizDaos.ConvertAll(x => x.ToQuiz());
         }
     }
 }

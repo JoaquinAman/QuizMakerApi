@@ -1,5 +1,5 @@
 ﻿using Domain.Model;
-namespace Interface
+namespace Domain.Interface
 {
     public interface IQuizDomain
     {

@@ -1,11 +1,12 @@
 ﻿
 
 using Dao.Mongo.Interface;
+using Domain.Interface;
 using Domain.Model;
 
 namespace Domain.Service
 {
-    public class QuizDomainService
+    public class QuizDomainService : IQuizDomain
     {
         private readonly IDatabase<Quiz> _database;
 
@@ -15,7 +16,7 @@ namespace Domain.Service
         }
         public async Task<List<Quiz>> GetQuizzesAsync()
         {
-            return await _database.GetAsync();
+            return await _database.GetList();
         }
     }
 }

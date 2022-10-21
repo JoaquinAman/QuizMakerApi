@@ -10,3 +10,15 @@ C:\Users\Joaquin Aman\source\repos\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Do
 C:\Users\Joaquin Aman\source\repos\QuizMakerApi\Domain.Model\obj\Debug\net6.0\refint\Domain.Model.dll
 C:\Users\Joaquin Aman\source\repos\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.pdb
 C:\Users\Joaquin Aman\source\repos\QuizMakerApi\Domain.Model\obj\Debug\net6.0\ref\Domain.Model.dll
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\bin\Debug\net6.0\Domain.Model.deps.json
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\bin\Debug\net6.0\Domain.Model.dll
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\bin\Debug\net6.0\Domain.Model.pdb
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.csproj.AssemblyReference.cache
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.AssemblyInfoInputs.cache
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.AssemblyInfo.cs
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.csproj.CoreCompileInputs.cache
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.dll
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\refint\Domain.Model.dll
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\Domain.Model.pdb
+C:\Users\Weeser\Downloads\Trabajo\BootCamp\Proyect\QuizMakerApi\Domain.Model\obj\Debug\net6.0\ref\Domain.Model.dll
